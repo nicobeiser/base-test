@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaline</title>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" as="style" onload="this.rel='stylesheet'">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider-wrapper swiper-wrapper">
+            <div class="slider-item swiper-slide">
+                <div class="slide-content">
+                    <h3 class="slide-subtitle">Diapositiva 1</h3>
+                    <h2 class="slide-title">Depilacion</h2>
+                    <p class="slide-description">Existen dos tipos de depilacion. La Depilación definitiva es el nombre que reciben los métodos que no solo elimina el vello, sino que también impiden que vuelva a crecer en la zona de aplicación.
+                         Mientras que el Sistema Español es un método hipoalergénico que se realiza con cera tibia.</p>
+<!--                <a href="depilacion.html" class="slide-button">mas informacion</a> -->
+                </div>
+            </div>
+            <div class="slider-item swiper-slide">
+                <div class="slide-content">
+                    <h3 class="slide-subtitle">Diapositiva 2</h3>
+                    <h2 class="slide-title">Masajes</h2>
+                    <p class="slide-description">Los masajes tienen muchos beneficios para nuestra salud. Nosotros ofrecemos una gran variedad de ellos
+                    </p>
+                    <a href="masajes.html" class="slide-button-largo">Mas informacion sobre los masajes</a>
+                </div>
+            </div>
+            <div class="slider-item swiper-slide">
+                <div class="slide-content">
+                    <h3 class="slide-subtitle">Diapositiva 3</h3>
+                    <h2 class="slide-title">Aparatología</h2>
+                    <p class="slide-description">El término aparatología se refiere a la estética, la cual es una nueva tendencia que ha evolucionado el modo de efectuar múltiples operaciones a través de una gran cantidad de avances tecnológicos. Por medio de la aparatología se puede tratar diferentes problemas de la piel, moldear la figura y moldear varios procesos internos.</p>
+                    <a href="aparatologia.html" class="slide-button-largo">Mas informacion de la aparatologia</a>
+                </div>
+            </div>
+            <div class="slider-item swiper-slide">
+                <div class="slide-content">
+                    <h3 class="slide-subtitle">Diapositiva 4</h3>
+                    <h2 class="slide-title">Uñas</h2>
+                    <p class="slide-description">El tener unas uñas perfectas con un esmalte brillante y duradero siempre es posible.
+                         Aunque te las muerdas (¡para de hacerlo desde hoy!) las tengas frágiles o incluso hayas perdido alguno por algún motivo.
+                         Las uñas de gel son la solución estética para lucir una manicura impecable durante mas tiempo.</p>
+                    <a href="#" class="slide-button-largo">Mas informacion sobre las uñas</a>
+                </div>
+            </div>
+            <div class="slider-item swiper-slide">
+                <div class="slide-content">
+                    <h3 class="slide-subtitle">Diapositiva 5</h3>
+                    <h2 class="slide-title">Adaline Por Dentro</h2>
+                    <p class="slide-description">descripcion</p>
+                    <a href="adaline-dentro.html" class="slide-button">Ver Imagenes</a>
+                    <section> 
+                        <div class="map">
+                            <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.9922002781127!2d-57.5537736!3d-38.0006424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dfb879e6eb1f%3A0x2fe0a8389d136c3e!2sEST%C3%89TICA%20ADALINE!5e0!3m2!1ses-419!2sar!4v1738146474559!5m2!1ses-419!2sar"
+                            class="responsive-iframe"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                            <a href="https://wa.me/542235372367" class="slide-button-wsp" target="_blank"><i class="fa-3x fa-brands fa-whatsapp">
+                                <img src="images/whatsapp-logo.png" alt="Logo de Whatsapp" width="40">
+                            </a>
+                        </div>
+                    </section> 
+                </div>
+            </div>
+        </div>
+
+        <!-- Agregamos Paginacion -->
+        <div class="slider-controls">
+            <div class="slider-pagination">
+                <div class="slider-indicator"></div>
+                <li class="slider-tab">
+                    Depilacion
+                </li>
+                <li class="slider-tab">
+                    Masajes
+                </li>
+                <li class="slider-tab">
+                    Aparatología
+                </li>
+                <li class="slider-tab">
+                    Uñas
+                </li>
+                <li class="slider-tab">
+                   Adaline Por Dentro
+                </li>
+
+            </div>
+        </div>
+
+        <!-- Agregamos Botones de Navegacion -->
+         <div class="slider-navigations">
+            <button id="slide-prev" class="material-symbols-rounded">
+                arrow_left_alt
+            </button>
+            <button id="slide-next" class="material-symbols-rounded">arrow_right_alt</button>
+
+         </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
